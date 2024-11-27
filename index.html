@@ -7,6 +7,7 @@
     <style>
         body{
             background-color: darkcyan;
+            margin-top: 50px;
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
@@ -116,7 +117,6 @@
             border-radius: 20px;  
         }
         .d5{
-            /* border: 2px solid black; */
             position:fixed;
             margin-top:80px;
             height: 480px;
@@ -153,7 +153,6 @@
             margin-left: 230px;
         }
         .p1{
-            
             opacity: 0.8;
         }
         #sn{
@@ -184,18 +183,27 @@
         }
         #rc1{
             border: 2px solid rgb(37, 172, 55);
-            /* height:fit-content; */
-            width:240px;
-            display: flex;
-            /* flex-wrap: wrap; */ 
-            margin-left:50px;
+            width:250px;
+            height: 50px;
+            margin-left:40px;
             background-color: rgb(26, 129, 53);
             color: white;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
-            justify-content: end;
         }
+        #rc2{
+            border: 2px solid rgb(37, 172, 55);
+            width:150px;
+            height: 50px;
+            margin-left:140px;
+            background-color: rgb(26, 129, 53);
+            color: white;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
         #i2{
             height: 150px;
             margin-left: 150px;
@@ -207,22 +215,32 @@
         #p2{
             opacity: 0.8;
         }
-       .m{
-        /* border: 2px solid black; */
-        /* background-color:cadetblue; */
-        /* height: 650px; */
-       }
+        .p11{
+            margin-top: 33px;
+            margin-left: 80px;
+            align-content: end;
+        }
+        .p12{
+            margin-top: 33px;
+            margin-left: 40px;
+            align-content: end;
+        }
+        .p13{
+            margin-top: 35px;
+            margin-left: 30px;
+            align-content: end;
+        }
         ::-webkit-scrollbar{
            display: none;
         }
         @media screen and (min-width:0px) and (max-width:325){
             body{
-                display: block;
+                display: none;
             }
         }
         @media screen and (min-width:326px) and {
             body{
-                display:none;
+                display:block;
             }
         }
     </style>
@@ -236,13 +254,12 @@
             <svg id="s4" width="24px" height="17px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#fafafa" stroke="#fafafa"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path fill="none" d="M0 0h24v24H0z"></path> <path d="M12 22a9 9 0 1 1 0-18 9 9 0 0 1 0 18zm0-2a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm1-7h3v2h-5V8h2v5zM1.747 6.282l3.535-3.535 1.415 1.414L3.16 7.697 1.747 6.282zm16.97-3.535l3.536 3.535-1.414 1.415-3.536-3.536 1.415-1.414z"></path> </g> </g></svg>
             <svg id="s5" width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.21600000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z" fill="#e8e8e8"></path> </g></svg>
             <img id="i1" src="https://photosking.net/wp-content/uploads/2024/04/real-girl-pic-photo-images102.webp" alt="contact">
-            <h3>Babee</h3>
+            <h3>Babeee</h3>
             <svg id="s6" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 10L18.5768 8.45392C19.3699 7.97803 19.7665 7.74009 20.0928 7.77051C20.3773 7.79703 20.6369 7.944 20.806 8.17433C21 8.43848 21 8.90095 21 9.8259V14.1741C21 15.099 21 15.5615 20.806 15.8257C20.6369 16.056 20.3773 16.203 20.0928 16.2295C19.7665 16.2599 19.3699 16.022 18.5768 15.5461L16 14M6.2 18H12.8C13.9201 18 14.4802 18 14.908 17.782C15.2843 17.5903 15.5903 17.2843 15.782 16.908C16 16.4802 16 15.9201 16 14.8V9.2C16 8.0799 16 7.51984 15.782 7.09202C15.5903 6.71569 15.2843 6.40973 14.908 6.21799C14.4802 6 13.9201 6 12.8 6H6.2C5.0799 6 4.51984 6 4.09202 6.21799C3.71569 6.40973 3.40973 6.71569 3.21799 7.09202C3 7.51984 3 8.07989 3 9.2V14.8C3 15.9201 3 16.4802 3.21799 16.908C3.40973 17.2843 3.71569 17.5903 4.09202 17.782C4.51984 18 5.07989 18 6.2 18Z" stroke="#faf9f9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
             <svg id="s7" width="24px" height="21px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.11596 12.7268L8.15456 9.08666C8.46255 8.69067 8.61655 8.49267 8.69726 8.27061C8.76867 8.07411 8.79821 7.86486 8.784 7.65628C8.76793 7.42055 8.67477 7.18766 8.48846 6.72187L7.77776 4.94513C7.50204 4.25581 7.36417 3.91116 7.12635 3.68525C6.91678 3.48618 6.65417 3.3519 6.37009 3.29856C6.0477 3.23803 5.68758 3.32806 4.96733 3.50812L3 4.00002C3 14 9.99969 21 20 21L20.4916 19.0324C20.6717 18.3122 20.7617 17.952 20.7012 17.6297C20.6478 17.3456 20.5136 17.083 20.3145 16.8734C20.0886 16.6356 19.7439 16.4977 19.0546 16.222L17.4691 15.5878C16.9377 15.3752 16.672 15.2689 16.4071 15.2608C16.1729 15.2536 15.9404 15.3013 15.728 15.4002C15.4877 15.512 15.2854 15.7144 14.8807 16.1191L11.7943 19.1569" stroke="#fafafa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
             <svg id="s8" width="24px" height="18px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z" fill="#f8f7f7"></path> <path d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z" fill="#f8f7f7"></path> <path d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z" fill="#f8f7f7"></path> </g></svg>
             <h5>online</h5>
         </div>
-
         <div class="d5">
             <div id="sn" align="center">Hiii....<svg id="s13" width="24px" height="17px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z" fill="#dd1d43"></path> </g></svg> 
                 <sub class="p1">10:00
@@ -264,7 +281,7 @@
             </div><br>
             <div id="sn">:( Enti baava ala antav<sub class="p1">10:07<svg id="s18" width="17px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#23a5e7" sketch:type="MSShapeGroup"> </path> </g> </g></svg></sub></div>
             <br>
-            <div id="rc1">Antey intha suddenga endhuku gurthochana ani..<sub class="p11">10:07<svg id="s17" width="18px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#0ca3e4" sketch:type="MSShapeGroup"></path> </g> </g></svg></sub></div>
+            <div id="rc1">Antey intha suddenga endhuku gurthochana ani..<sub class="p11">10:07<svg id="s171" width="18px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#0ca3e4" sketch:type="MSShapeGroup"></path> </g> </g></svg></sub></div>
             <br>
             <div id="sn">Anteyy adhiiii..<sub class="p1">10:08<svg id="s18" width="17px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#23a5e7" sketch:type="MSShapeGroup"> </path> </g> </g></svg></sub></div>
             <br>
@@ -277,7 +294,7 @@
             <div id="sn">Antey na recharge ayipoindhi..<sub class="p1">10:08<svg id="s18" width="17px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#23a5e7" sketch:type="MSShapeGroup"> </path> </g> </g></svg></sub></div>
             <br>
             <img id="i2" src="https://media.tenor.com/4I_mpb0t-U0AAAAM/bramhi-brahmi.gif" alt="">
-            <div id="rc1">anthey na inka em kavali.....<sub class="p4">10:09<svg id="s17" width="18px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#0ca3e4" sketch:type="MSShapeGroup"></path> </g> </g></svg></sub></div>
+            <div id="rc2">anthey na inka em kavali.....<sub class="p12">10:09<svg id="s17" width="18px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#0ca3e4" sketch:type="MSShapeGroup"></path> </g> </g></svg></sub></div>
             <br>
             <img id="i3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAbpuykFQSgZx9rAiVBtGc_MFoeiwbAxQ2vA&s" alt="">
             <div id="sn">Na lipstick kuda ayipoindhi bavaa..<sub class="p1">10:09<svg id="s18" width="17px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#23a5e7" sketch:type="MSShapeGroup"> </path> </g> </g></svg></sub></div>
@@ -299,7 +316,7 @@
             <img id="i3" src="data:image/jpeg;base64,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" alt="">
             <div id="sn"><sub class="p1">10:10<svg id="s18" width="17px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#23a5e7" sketch:type="MSShapeGroup"> </path> </g> </g></svg></sub></div>
             <br>
-            <div id="rc1">Sar sarley ala chudaku chesthanu<sub class="p4">10:11<svg id="s17" width="18px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#0ca3e4" sketch:type="MSShapeGroup"></path> </g> </g></svg></sub></div>
+            <div id="rc2">Sar sarley ala chudaku chesthanu<sub class="p13">10:11<svg id="s17" width="18px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#0ca3e4" sketch:type="MSShapeGroup"></path> </g> </g></svg></sub></div>
             <br>
             <img id="i3" src="https://media.stickerswiki.app/pack_1647711194626664225_by_videotostickerbot/1505346.160.gif" alt="">
             <div id="sn">Luv u baava..tq<sub class="p1">10:11<svg id="s18" width="17px" height="14px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>icon/24/icon-check</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <path d="M18,7 L16.59,5.59 L10.25,11.93 L11.66,13.34 L18,7 L18,7 L18,7 Z M22.24,5.59 L11.66,16.17 L7.48,12 L6.07,13.41 L11.66,19 L23.66,7 L22.24,5.59 L22.24,5.59 L22.24,5.59 Z M0.41,13.41 L6,19 L7.41,17.59 L1.83,12 L0.41,13.41 L0.41,13.41 L0.41,13.41 Z" id="path" fill="#23a5e7" sketch:type="MSShapeGroup"> </path> </g> </g></svg></sub></div>
